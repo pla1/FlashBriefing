@@ -1,0 +1,14 @@
+{
+  "description": "NFL Scores",
+  "framework": "ubuntu-sdk-14.10-html",
+  "hooks": {
+    "plawx": {
+      "apparmor": "nfl.json",
+      "desktop": "nfl.desktop"
+    }
+  },
+  "maintainer": "Patrick L Archibald (PLA) <Patrick.Archibald@gmail.com>",
+  "name": "nflscores.pla",
+  "title": "NFL Scores",
+  "version": "0.1"
+}

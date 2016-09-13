@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html ng-app="app" ng-controller="Controller">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link href="css/nfl.css" type="text/css" rel="stylesheet" />
+  <link rel="icon" type="image/png" href="NFL256x256.png">
+  <script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+  <script type="text/javascript" src="js/jquery.touchSwipe.js"></script>
+  <script type="text/javascript" src="js/angular-1.5.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+  <title>NFL Teams</title>
+</head>
+
+<body>
+
+  <p ng-repeat="phrase in phrases">
+    {{phrase}}
+  </p>
+  <p id="messageId"></p>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.fit {
+  /* set relative picture size */
+  max-width: 100%;
+  max-height: 100%;
+}
+.center {
+  display: block;
+  margin: 0 auto;
+}
+.toast {
+  position:absolute;
+  bottom:10px;
+  right:25%;
+  left:25%;
+  background-color: #383838;
+  color: #F0F0F0;
+  font-family: Calibri;
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 2px;
+  box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+}

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=NFL Scores
+Comment=NFL Scores
+Exec=webapp-container --webappUrlPatterns=http://xbmc-rocks.com/nfl/www/* http://xbmc-rocks.com/nfl/www/
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+Icon=www/NFL256x256.png
