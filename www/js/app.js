@@ -3,7 +3,7 @@
   app.controller('Controller', function appControllerFunction($scope, $http) {
     $scope.phrases = [];
     $scope.settings = {};
-    $http.get('http://localhost:8080/TextFeed2Images/JsonServlet?action=flashBriefing').success(
+    $http.get('/TextFeed2Images/JsonServlet?action=flashBriefing').success(
       function(data) {
         $scope.phrases = data;
         if (supportsSpeechSynthesis()) {
