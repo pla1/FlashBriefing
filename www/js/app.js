@@ -37,7 +37,7 @@
     function supportsSpeechSynthesis() {
       var answer = 'speechSynthesis' in window;
       var message = "<p>SpeechSynthesisUtterance supported: <b>" + answer + "</b></p><p>User agent: " + navigator.userAgent + ".</p><p><a href='" + location.href + "'>" + location.href + "</p>";
-      document.getElementById("messageId").innerHTML = message;
+//      document.getElementById("messageId").innerHTML = message;
       return answer;
     }
   });
